@@ -1,0 +1,42 @@
+.center{
+    display:flex;
+    justify-content: center;
+    padding-inline:10px ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 9;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 3px 100px;
+    z-index: 9;
+  
+  }
+  nav ul li a{
+    color: #000000;
+    text-decoration: none ;
+    font-size: 18px;
+    position: relative;
+    z-index: 9;
+  
+  }
+  nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+    z-index: 9;
+  }
+  nav ul li a:hover::after{
+    width: 100%;
+  
+  }

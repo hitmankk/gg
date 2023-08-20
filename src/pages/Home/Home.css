@@ -1,0 +1,104 @@
+
+@font-face {   
+  font-family: 'Varela';   
+  src: url('VarelaRegular.ttf');
+}
+@font-face {   
+  font-family: 'Lato';
+  src: url('LatoRegular.ttf');
+}
+
+ion-card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.col1{
+  margin-left: 50px;
+  width: 60%;
+  /* padding: 60px; */
+}
+.span{
+  font-size: larger;
+}
+.ion-1x{
+  font-size: 20px;
+
+
+}
+.ion-2x{
+  font-size: 40px;
+ 
+}
+.text-black{
+  color: black;
+  font-weight: bolder ;
+}
+
+
+
+/* nav */
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  z-index: -1;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 3px 100px;
+  z-index: -1;
+
+}
+nav ul li a{
+  color: #000000;
+  text-decoration: none ;
+  font-size: 18px;
+  position: relative;
+  z-index: -1;
+
+}
+nav ul li a::after{
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+  z-index: -1;
+}
+nav ul li a:hover::after{
+  width: 100%;
+
+}
+@media only screen and (max-width: 749px){
+  nav .fas{
+    display: block;
+    font-size: 25px;
+}
+nav ul{
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+}
+nav ul li{
+    display: block;
+    margin: 25px;
+}
+nav ul .fas{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+}

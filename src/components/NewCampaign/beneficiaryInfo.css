@@ -1,0 +1,16 @@
+.container1{
+    
+    display: block;
+    padding: 45px 220px 70px 45px;
+    position: relative;
+
+}
+.divider{
+    border-left: 6px solid black;
+    height: 98%;
+    position:absolute;
+    left: 0%;
+}
+h6{
+    font-weight: bold;
+}

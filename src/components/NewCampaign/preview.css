@@ -1,0 +1,17 @@
+.cont{
+    padding: 50px 10px 50px ;
+    width:fit-content;
+
+    display: flex;
+    justify-content: center;
+    color: rgb(227, 83, 83);
+    background-color: rgb(255, 255, 255);
+    gap: 350px;
+}
+.cover{
+ 
+    height: 300px;
+/*     
+    margin-left: 25%;
+    margin-right: 20%; */
+}
