@@ -1,0 +1,16 @@
+{
+  "name": "G&G",
+  "integrations": {
+    "capacitor": {},
+    "enterprise": {
+      "keyId": 14061,
+      "productKey": "key_28c44ba28e714ac8852fd827bf7a7d8e",
+      "appId": "db13b558",
+      "orgId": "6c93b24b-4068-476e-ba42-5f03f7e7f440",
+      "registries": [
+        "@ionic-enterprise;https://registry.ionicframework.com/"
+      ]
+    }
+  },
+  "type": "react-vite"
+}
